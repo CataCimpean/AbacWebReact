@@ -1,0 +1,30 @@
+// xs
+@media only screen and (min-width: 250px) and (max-width: 576px) {
+  html {
+    font-size: 11px;
+  }
+}
+// sm
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+// md
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  html {
+    font-size: 17px;
+  }
+}
+// lg
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+// xl
+@media only screen and (min-width: 1201px) {
+  html {
+    font-size: 30px;
+  }
+}

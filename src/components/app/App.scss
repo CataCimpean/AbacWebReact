@@ -1,0 +1,22 @@
+.wrap-container {
+  .top-header {
+    background-color: #ad5757;
+    color: white;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+    .col {
+      text-align: center;
+    }
+  }
+  .planet-wrapper {
+    margin: 3%;
+  }
+
+  .spinner {
+    margin: 0 auto;
+    padding-top: 25%;
+  }
+}

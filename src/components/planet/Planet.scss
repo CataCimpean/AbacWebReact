@@ -1,0 +1,78 @@
+.planet-row {
+  margin-bottom: 5%;
+  border: 2px solid #cecdcd;
+  padding: 2%;
+
+  .planet-form {
+    width: 100%;
+    display: flex;
+
+    .planet-img {
+      display: flex;
+      margin: 0 auto;
+      clip-path: circle(40% at center);
+      width: 20vw;
+    }
+
+    .planet-name {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .planet-description {
+      resize: none;
+      background: transparent;
+      font-size: 1rem;
+
+      .row {
+        flex-direction: column;
+      }
+      .description {
+        font-size: 1.4em;
+        width: 100%;
+      }
+
+      .planet-captain,
+      .planet-robots {
+        font-size: 1rem;
+      }
+    }
+
+    .planet-status {
+      text-align: center;
+      margin: auto;
+
+      .status-input {
+        font-size: 1rem;
+        font-weight: bolder;
+        border: none;
+        background: transparent;
+        outline: 0;
+        height: 40px;
+        width: inherit;
+        text-align: right;
+
+        &.ok {
+          color: green;
+        }
+
+        &.not-ok {
+          color: red;
+        }
+
+        &.en-route {
+          color: gray;
+        }
+      }
+    }
+  }
+}
+
+.input-error-msg {
+  color: red;
+}
+
+.description {
+  border: none;
+  outline: none;
+}
